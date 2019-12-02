@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    credentials = "./terraform-gke-keyfile.json"
-    bucket      = "bomgcpbckt"
+    credentials = "./terraform-bmgke-keyfile.json"
+    bucket      = "bmgcpjxbckt"
     prefix      = "terraform/state"
   }
 }

@@ -9,4 +9,4 @@
 *.tfvars
 
 # account file
-*terraform-gke-keyfile.json
+*.json
